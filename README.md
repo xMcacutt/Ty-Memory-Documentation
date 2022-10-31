@@ -228,9 +228,11 @@ This document explains what each offset from this address does.
 |0xA97|Bool|TE Machine|Gone From Hub 2 To Hub 3|
 |0xA98|Bool|Activated TE Machine Hub 2 ??||
 |0xA99|Bool|Flaming Logs Removed||
-|0xA9A|Bool|TE Machine|Gone From Hub 3|
+|0xA9A|Bool|TE Machine|Gone From Hub 3 to Hub 4?|
 |0xA9B|Bool|Activated TE Machine Hub 3 ??||
-|0xA9C-0xA9E|Bool[]?|???||
+|0xA9C|Bool|Smashrock Removed||
+|0xA9D|Bool|TE Machine|Gone From Hub 4|
+|0xA9E|Bool|Activated TE Machine Hub 4 ??||
 |0xA9F|Bool|E Zone Gate Open||
 |0xAA0-0xAA3|???|???||
 
