@@ -10,11 +10,11 @@ Each portal uses 176 bytes.
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
 |0x0|Byte|No. Bytes For Object|Always 176 (0xB0)|
-|0x14-0x17|Int32|ID in lv2||
+|0x14 - 0x17|Int32|ID in lv2||
 |0x94|Byte|Max Portal State?|Defined Later In Document|
 |0x96|Byte|Starting Portal State?|Defined Later In Document|
-|0x9C-0x9F|Int32|Last Portal Function Call|Defined Later In Document|
-|0xAC-0xAF|Int32|Connecting Level|Defined Later In Document|
+|0x9C - 0x9F|Int32|Last Portal Function Call|Defined Later In Document|
+|0xAC - 0xAF|Int32|Connecting Level|Defined Later In Document|
 
 ## Portal Function Calls
 
