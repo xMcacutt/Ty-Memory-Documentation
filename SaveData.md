@@ -285,14 +285,13 @@ This document explains what each offset from this address does.
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0xAD0|Byte|Life Count||
+|0xAD0-0xAD1|Int16|Life Count||
 
 ## Picture Frames
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0xAD3|Byte|A1 Picture Frames|1 Bit Per Frame|
-|0xAD4|Byte|A2 Picture Frames|1 Bit Per Frame|
+|0xAD2-0xB00|Byte[]|Picture Frames|1 Bit Per Frame|
 
 ## Misc
 
