@@ -29,6 +29,7 @@ Each portal uses 176 bytes.
 ## Portal State
 
 |Value|Visual|Interactable|Follows Camera|Lights Ty|Text Displayed|
+|---|---|---|---|---|---|
 |0|Nothing|NA|NA|NA|NA|
 |1|Particles Only|No|NA|No|No|
 |2|Nothing|NA|NA|NA|NA|
@@ -50,6 +51,7 @@ going past these values will cause the text on the portal to display strings fro
 Entering a portal with a connecting level that does not exist will cause a white load screen to appear and the game to crash.
 
 |Level ID|Level Name|Level Code|Extra|
+|---|---|---|---|
 |0|Rainbow Cliffs|Z1||
 |1|Rainbow Cliffs|Z2|Old Development Version|
 |2|||
