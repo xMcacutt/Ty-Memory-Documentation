@@ -18,7 +18,7 @@ This document explains what each offset from this address does.
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x10|Byte|No. Times Entered|Display Game Info If > 0|
+|0x10|Byte|No. Times Entered|Two Up Portal Shown If > 1|
 |0x11 - 0x14|Byte[]|Rainbow Scales|1 Bit Per Scale|
 |0x15 - 0x1CF|Byte[]|Empty|Size Of 3 Levels' Data (probably unused)|
 
@@ -119,11 +119,11 @@ This document explains what each offset from this address does.
 |0x4B4 - 0x4B7|Float|Time Attack|Time To Beat|
 |0x4B8 - 0x4DF|Byte[]|Triggers Entered|EnterOnceOnly Activation (probably)|
 
-### Crikey's Cove D4
+### Kumu Caves B4 ?
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x4E0|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
+|0x4E0|Byte|No. Times Entered|Unused Level|
 |0x4E1 - 0x54F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
 ### Lyre, Lyre Pants On Fire C1
@@ -178,41 +178,61 @@ This document explains what each offset from this address does.
 |0x6A0|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
 |0x6A1 - 0x70F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
-### Cass' Pass E1
+### MinMin D1
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x710|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
+|0x710|Byte|No. Times Entered|Unused Level|
 |0x711 - 0x77F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
 ### Cass' Crest D2
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x780|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
+|0x780|Byte|No. Times Entered|Display Game Info If > 0|
 |0x781 - 0x7EF|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
-### Final Battle E4
+### Neverwarm D3
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x7F0|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
+|0x7F0|Byte|No. Times Entered|Unused Level|
 |0x7F1 - 0x85F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
-### Bonus World E2
+### Crikey's Cove D4
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
 |0x860|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
 |0x861 - 0x8CF|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
+### Cass' Pass E1
+
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
+|0x8D0|Byte|No. Times Entered|Display Game Info If > 0|
+|0x8D1 - 0x93F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
+
+### Bonus World E2
+
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
+|0x940|Byte|No. Times Entered|Display Game Info If > 0|
+|0x941 - 0x9AF|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
+
 ### Bonus World E3
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x8D0|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
-|0x8D1 - 0x93F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
-|0x940 - 0xA8F|Byte[]|Empty|Size Of 3 Levels' Data (probably unused)|
+|0x9B0|Byte|No. Times Entered|Display Game Info If > 0|
+|0x9B1 - 0xA1F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
+
+### Final Battle E4
+
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
+|0xA20|Byte|No. Times Entered|Spawn Portal In Z1 & Display Game Info If > 0|
+|0xA21 - 0xA8F|Byte[]|Empty|Likely Populated With Data If Save Data Items Are Added To Level|
 
 ## Rainbow Cliffs Objects
 
