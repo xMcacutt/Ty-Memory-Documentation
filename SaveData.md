@@ -242,17 +242,17 @@ This document explains what each offset from this address does.
 |0xA91|???|???||
 |0xA92|???|???||
 |0xA93|???|???||
-|0xA94|Bool|TE Machine|Gone From Hub 1 To Hub 2|
-|0xA95|Bool|Activated TE Machine Hub 1 ??||
+|0xA94|Bool|TE Machine Gone From Hub 1 To Hub 2|Also Displays Talisman|
+|0xA95|Bool|Activated TE Machine Hub 1 ??|Not Sure What This Does|
 |0xA96|Bool|Ice Wall Removed||
-|0xA97|Bool|TE Machine|Gone From Hub 2 To Hub 3|
-|0xA98|Bool|Activated TE Machine Hub 2 ??||
+|0xA97|Bool|TE Machine Gone From Hub 2 To Hub 3|Also Displays Talisman|
+|0xA98|Bool|Activated TE Machine Hub 2 ??|Not Sure What This Does|
 |0xA99|Bool|Flaming Logs Removed||
-|0xA9A|Bool|TE Machine|Gone From Hub 3 to Hub 4?|
-|0xA9B|Bool|Activated TE Machine Hub 3 ??||
+|0xA9A|Bool|TE Machine Gone From Hub 3 to Hub 4?|Also Displays Talisman|
+|0xA9B|Bool|Activated TE Machine Hub 3 ??|Not Sure What This Does|
 |0xA9C|Bool|Smashrock Removed||
-|0xA9D|Bool|TE Machine|Gone From Hub 4|
-|0xA9E|Bool|Activated TE Machine Hub 4 ??||
+|0xA9D|Bool|TE Machine Gone From Hub 4|Also Displays Talisman|
+|0xA9E|Bool|Activated TE Machine Hub 4 ??|Not Sure What This Does|
 |0xA9F|Bool|E Zone Gate Open||
 |0xAA0 - 0xAA3|???|???||
 
@@ -313,13 +313,26 @@ This document explains what each offset from this address does.
 |---|---|---|---|
 |0xAD2-0xB00|Byte[]|Picture Frames|1 Bit Per Frame|
 
-## Misc
+## Timer Stuff
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
 |0xB13|???|???||
 |0xB14 - 0xB17|Float|Game Timer||
-|0xB18|???|???||
+
+## Achievement Counters
+
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
+|0xB18|Byte|No. Enemies Bitten Up To 200|What Big Teeth You Have! Achv.|
+|0xB1C|Byte|No. Enemies Zapped Up To 75|Tesla Time Achv.|
+|0xB20|Byte|No. Enemies Flamed Up To 100|Nice & Toasty Achv.|
+|0xB24|Byte|No. Skink Cricket Bats Burnt Up To 50|The Ashes Achv.|
+
+## Misc
+
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
 |0xB28 - 0xB29|Bool[]|Cheats Used|Likely Switches To "Using Cheats" Leaderboards|
 |0xB2A - 0xB2B|???|???|Related To Cheats Somehow|
 |0xB2C|Byte|Skin ID||
