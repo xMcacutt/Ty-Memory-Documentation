@@ -13,8 +13,21 @@ Each portal uses 324 bytes. (0x144)
 |0x64|Bool|???||
 |0x65|Bool|???||
 |0X70|Byte|???||
-|0xC4|Byte|Thunder Egg State|Changing To != 1 Hides TE Permanently|
+|0xC4|Byte|Thunder Egg State|Changing To 2 Hides TE Permanently|
 |0xDC - 0xE7|Float[]|Camera Source||
 |0xEC - 0xF7|Float[]|Camera Target||
 |0xFC - 0x107|Float[]|Camera Source|Repeated?|
 |0x10C - 0x117|Float[]|Camera Target|Repeated?|
+
+## Thunder Egg State
+
+|Value|Behaviour|Extra|
+|---|---|---|
+|0|Nothing||
+|1|Normal Visible||
+|2|Permanently Hidden||
+|3|Not Spinning||
+|4|Spinning Fast|Used During Claim Anim|
+|5|Hidden||
+|> 5|Doesn't Follow Camera||
+
