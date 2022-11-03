@@ -22,5 +22,8 @@ Crate data is 448 bytes long = 0x1C0
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x48|Int32 (bool)|Crate Collision||
-|0x148|||
+|0x48|Bool|Crate Collision||
+|0x114|Bool|Crate Visible||
+|0x150 - 0x177|IntPtr[]|Opals||
+|0x178|Byte|Opal Count||
+
