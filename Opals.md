@@ -5,7 +5,7 @@
 #### B3 Crate
 B3 crate data can be found in memory at the address pointed to by the value at the module base address + 0x255190
 
-Crate data is 448 bytes long = 0x1C0
+Crate data is 448 bytes long (0x1C0).
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
@@ -31,6 +31,8 @@ Crate data is 448 bytes long = 0x1C0
 |0x150 - 0x177|IntPtr[]|Opals||
 |0x178|Byte|Opal Count||
 
+___
+
 ### Opals
 
 #### Gem Pointers
@@ -43,17 +45,18 @@ If that opal spec does not exist in the current level, the pointer path is inval
 
 The paths can all be found using the same base address -> Module Base Address + [0x28AB7C]
 
-This address is a pointer to a list of pointers for the different gems.
+This address is a pointer to an array of pointers for the different gems.
 
 |Gem Type|Offset To Pointer|Hence Full Path|
 |---|---|---|
-|Opal (not in crate)|0x0|TY.exe + [0x28AB7C] + [0x0] + 0x0|
+|Opal Not In Crate)|0x0|TY.exe + [0x28AB7C] + [0x0] + 0x0|
+|Rainbow Scale|0x20|TY.exe + [0x28AB7C] + [0x20] + 0x0|
 |B3 Crate Opal||0x2B0|TY.exe + [0x28AB7C] + [0x2B0] + 0x0|
-|Normal Crate Opal|
-|Normal Opal|
-|Rainbow Scale|
+|Normal Crate Opal|0x4AC|TY.exe + [0x28AB7C] + [0x4AC] + 0x0|
 
 #### Opal Data
+
+Opal data is 276 bytes long (0x114).
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
