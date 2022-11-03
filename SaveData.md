@@ -1,6 +1,6 @@
 # Ty-Save-Data-Documentation
 
-The in game save data can be found in memory at the address pointed to by the module base address + 0x228730
+The in game save data can be found in memory at the address pointed to by the module base address + 0x288730
 This document explains what each offset from this address does.
 
 ## Save File Header
