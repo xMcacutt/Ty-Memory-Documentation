@@ -14,7 +14,7 @@ The two will be documented separately here.
 The current level bilby cages can be found in memory at the address pointed to by the module base address + 
 This document explains what each offset from this address does.
 
-Each Thunder Egg uses 324 bytes. (0x144)
+Each bilby uses 308 bytes (0x134).
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
@@ -33,7 +33,7 @@ Each Thunder Egg uses 324 bytes. (0x144)
 The current level bilbies can be found in memory at the address pointed to by the module base address + [0x2CEB8378] + [0] + 0
 This document explains what each offset from this address does.
 
-Each Thunder Egg uses 324 bytes. (0x144)
+Each bilby uses 308 bytes. (0x134)
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
