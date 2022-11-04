@@ -5,7 +5,7 @@ This document explains what each offset from this address does.
 
 ## Thunder Egg Object
 
-Each portal uses 324 bytes. (0x144)
+Each Thunder Egg uses 324 bytes. (0x144)
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
