@@ -18,6 +18,7 @@ Each bilby uses 308 bytes (0x134).
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
+|0x34|Int32|Bilby State||
 |0x44 - 0x4F|Float[]|Position||
 |0x64|Bool|???||
 |0x65|Bool|???||
@@ -37,6 +38,7 @@ Each bilby uses 308 bytes. (0x134)
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
+|0x34|Int32|Bilby State||
 |0x44 - 0x4F|Float[]|Position||
 |0x64|Bool|???||
 |0x65|Bool|???||
