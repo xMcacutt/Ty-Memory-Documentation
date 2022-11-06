@@ -49,7 +49,7 @@ This address is a pointer to an array of pointers for the different gems.
 
 |Gem Type|Offset To Pointer|Hence Full Path|
 |---|---|---|
-|Opal Not In Crate)|0x0|TY.exe + [0x28AB7C] + [0x0] + 0x0|
+|Opal (Not In Crate)|0x0|TY.exe + [0x28AB7C] + [0x0] + 0x0|
 |Rainbow Scale|0x20|TY.exe + [0x28AB7C] + [0x20] + 0x0|
 |B3 Crate Opal|0x2B0|TY.exe + [0x28AB7C] + [0x2B0] + 0x0|
 |Normal Crate Opal|0x4AC|TY.exe + [0x28AB7C] + [0x4AC] + 0x0|
