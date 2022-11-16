@@ -20,7 +20,7 @@ This means that, for the Outback boxes only, turning off the box visually is suf
 
 #### Normal Crate
 
-B3 crate data can be found in memory at the address pointed to by the value at the module base address + 0x254CB8
+Normal crate data can be found in memory at the address pointed to by the value at the module base address + 0x254CB8
 
 Crate data is 448 bytes long = 0x1C0
 
