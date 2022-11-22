@@ -12,6 +12,7 @@ Each Cog uses 324 bytes. (0x144)
 |0x44 - 0x4F|Float[]|Position||
 |0x64|Bool|???||
 |0x65|Bool|???||
+|0x6C|Int32|Cog ID|Indexed From 0|
 |0X70|Byte|???||
 |0xC4|Byte|Cog State|Changing To 2 Hides Cog Permanently|
 |0xDC - 0xE7|Float[]|Camera Source||
