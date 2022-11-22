@@ -2,7 +2,7 @@
 
 ## Bilby Object
 
-The current level bilbies can be found in memory at the address reached via pointer path: module base address + [0x2CEB8378] + [0] + 0
+The current level bilbies can be found in memory at the address reached via pointer path: module base address + [0x27D608] + [0] + 0
 This document explains what each offset from this address does.
 
 Each bilby uses 308 bytes. (0x134)
