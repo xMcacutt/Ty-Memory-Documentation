@@ -23,7 +23,7 @@ Each portal uses 176 bytes.
 |0|Remove Portal||
 |1|Spawn Portal|Automatically Calls Function Value 2|
 |2|Spawn Particles||
-|3|Hide Portal||
+|3|Portal Shown||
 |> 3|Portal Breaks|Exclaim Persists On Screen|
 
 ## Portal State
