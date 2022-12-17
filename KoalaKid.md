@@ -22,3 +22,7 @@ The first Koala Kid is always located at [Module Base + 0x26B070] + 0
 |0x2B4|Float[]|Rotation Coordinates PYR||
 
 \*\*Koala Index is based on the order of the Koalas in the LV2. Specifically, the index counts from 1 to 8 (typically) in reverse order from the order listed in the LV2.
+
+Koala Kids are always created in the same order
+KATIE -> MIM -> ELIZABETH -> SNUGS -> GUMMY -> DUBBO -> KIKI -> BOONIE
+This means for levels with multiple of the same Koala, the two duplicates will be next to each other in memory.
