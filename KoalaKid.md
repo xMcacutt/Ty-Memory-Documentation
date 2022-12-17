@@ -18,4 +18,3 @@ The first Koala Kid is always located at [Module Base + 0x26B070] + 0
 |0x298|Bool|bCollisionActive||
 |0x2A4|Float[]|Position Coordinates XYZ||
 |0x2B4|Float[]|Rotation Coordinates PYR||
-|0x178|Byte|Opal Count||
