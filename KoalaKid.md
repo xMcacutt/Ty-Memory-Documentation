@@ -1,1 +1,21 @@
+## Ty-KoalaKid-Documentation
 
+### Koala Kid Objective
+
+To me, the koala kid objective structure makes no sense whatsoever just by looking at the memory addresses.
+There are pointers scattered everywhere and it is exceptionally difficult to work out where the object starts and ends.
+Instead of worrying about this, I have simply used a consistent set of offsets for each koala which always work regardless of level.
+The rest of this document only discusses the Koala Kid object itself.
+
+### Koala Kid
+
+The Koala Kid object is 0x518 bytes long.
+The first Koala Kid is always located at [Module Base + 0x26B070] + 0
+
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
+|0x44|Bool|bVisible||
+|0x298|Bool|bCollisionActive||
+|0x2A4|Float[]|Position Coordinates XYZ||
+|0x2B4|Float[]|Rotation Coordinates PYR||
+|0x178|Byte|Opal Count||
