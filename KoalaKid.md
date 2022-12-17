@@ -4,8 +4,6 @@
 
 To me, the koala kid objective structure makes no sense whatsoever just by looking at the memory addresses.
 There are pointers scattered everywhere and it is exceptionally difficult to work out where the object starts and ends.
-Instead of worrying about this, I have simply used a consistent set of offsets for each koala which always work regardless of level.
-The rest of this document only discusses the Koala Kid object itself.
 
 ### Koala Kid
 
