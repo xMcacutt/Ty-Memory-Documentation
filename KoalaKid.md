@@ -23,4 +23,7 @@ The first Koala Kid is always located at [Module Base + 0x26B070] + 0
 
 Koala Kids are always created in the same order
 KATIE -> MIM -> ELIZABETH -> SNUGS -> GUMMY -> DUBBO -> KIKI -> BOONIE
+
 This means for levels with multiple of the same Koala, the two duplicates will be next to each other in memory.
+
+For Mul-Ty-Player, the first koala of each type is always the one placed at the bottom of the LV2
