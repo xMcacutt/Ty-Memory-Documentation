@@ -14,8 +14,8 @@ The first Koala Kid is always located at [Module Base + 0x26B070] + 0
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
-|0x14|Int32|Object ID|Defined in LV2|
-|0x44|Bool|bVisible||
+|0x14|Int32|Object ID|Defined In LV2|
+|0x44|Bool|bVisible|Changed During TA|
 |0x26C|Int32|Koala Index|\*\*|
 |0x298|Bool|bCollisionActive||
 |0x2A4|Float[]|Position Coordinates XYZ||
