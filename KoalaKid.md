@@ -14,10 +14,11 @@ The first Koala Kid is always located at [Module Base + 0x26B070] + 0
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
+|0x14|Int32|Object ID|Defined in LV2|
 |0x44|Bool|bVisible||
-|0x26C|Int32|Koala Index|\*1|
+|0x26C|Int32|Koala Index|\*\*|
 |0x298|Bool|bCollisionActive||
 |0x2A4|Float[]|Position Coordinates XYZ||
 |0x2B4|Float[]|Rotation Coordinates PYR||
 
-\*Koala Index is based on the order of the Koalas in the LV2. Specifically, the index counts from 1 to 8 (typically) in reverse order from the order listed in the LV2.
+\*\*Koala Index is based on the order of the Koalas in the LV2. Specifically, the index counts from 1 to 8 (typically) in reverse order from the order listed in the LV2.
