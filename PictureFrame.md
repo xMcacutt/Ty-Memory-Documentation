@@ -13,3 +13,11 @@ InvisiCrate data is 476 bytes long.
 |0x178|Byte|Opal Count||
 
 ### Picutre Frame
+
+Picture Frame data is 216 bytes long
+|Offset|Data Type|Definition|Extra Information|
+|---|---|---|---|
+|0x88|Bool[4]|First always 0, second visible?, third collecting?, fourth collected?||
+|||||
+|0x150 - 0x177|IntPtr[]|Opals||
+|0x178|Byte|Opal Count||
