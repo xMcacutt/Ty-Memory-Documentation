@@ -62,3 +62,14 @@ Opal data is 276 bytes long (0x114).
 |---|---|---|---|
 |0x78|Int32|Opal State|Defined Later In Document|
 |0xFE|Int16|???|Makes Opal Translucent If = 2 Or 3|
+
+##### Opal State
+
+|Value|Behaviour|
+|---|---|
+|0|Despawned|
+|1|Spawning|
+|2|Resting|
+|3|Magnetized|
+|4|Saving Position|
+|5|Collected|
