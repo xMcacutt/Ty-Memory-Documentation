@@ -318,7 +318,7 @@ This document explains what each offset from this address does.
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
 |0xB13|Byte|Last Played Cutscene ID||
-|0xB14 - 0xB17|Float|Game Timer||
+|0xB14 - 0xB17|Int|Game Timer (Seconds)||
 |0xB18|Byte|No. Enemies Bitten Up To 200|What Big Teeth You Have! Achv.|
 |0xB1C|Byte|No. Enemies Zapped Up To 75|Tesla Time Achv.|
 |0xB20|Byte|No. Enemies Flamed Up To 100|Nice & Toasty Achv.|
