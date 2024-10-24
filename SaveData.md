@@ -313,26 +313,16 @@ This document explains what each offset from this address does.
 |---|---|---|---|
 |0xAD2-0xB00|Byte[]|Picture Frames|1 Bit Per Frame|
 
-## Timer Stuff
-
-|Offset|Data Type|Definition|Extra Information|
-|---|---|---|---|
-|0xB13|???|???||
-|0xB14 - 0xB17|Float|Game Timer||
-
-## Achievement Counters
-
-|Offset|Data Type|Definition|Extra Information|
-|---|---|---|---|
-|0xB18|Byte|No. Enemies Bitten Up To 200|What Big Teeth You Have! Achv.|
-|0xB1C|Byte|No. Enemies Zapped Up To 75|Tesla Time Achv.|
-|0xB20|Byte|No. Enemies Flamed Up To 100|Nice & Toasty Achv.|
-|0xB24|Byte|No. Skink Cricket Bats Burnt Up To 50|The Ashes Achv.|
-
 ## Misc
 
 |Offset|Data Type|Definition|Extra Information|
 |---|---|---|---|
+|0xB13|Byte|Last Played Cutscene ID||
+|0xB14 - 0xB17|Float|Game Timer||
+|0xB18|Byte|No. Enemies Bitten Up To 200|What Big Teeth You Have! Achv.|
+|0xB1C|Byte|No. Enemies Zapped Up To 75|Tesla Time Achv.|
+|0xB20|Byte|No. Enemies Flamed Up To 100|Nice & Toasty Achv.|
+|0xB24|Byte|No. Skink Cricket Bats Burnt Up To 50|The Ashes Achv.|
 |0xB28 - 0xB29|Bool[]|Cheats Used|Likely Switches To "Using Cheats" Leaderboards|
 |0xB2A - 0xB2B|???|???|Related To Cheats Somehow|
 |0xB2C|Byte|Skin ID||
